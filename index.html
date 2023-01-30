@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jennifer Sieber | Web Dev and Design</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/1a261dd86e.js" crossorigin="anonymous"></script>
+  <script src="src/index.js" defer></script>
+</head>
+<body>
+  <nav>  
+    <a href="#home-hero/index.html">
+    <img
+      class="logo"
+      src="../src/images/javascript-games-logo.png"
+      alt="Kubows Logo"
+      ></img>
+    </a>
+    <ul 
+      class="nav-bar" 
+      id="nav-list">
+      <li class="nav-item"><a href="#about-me">About Me</a></li>
+      <!-- <li class="nav-item"><a href="https://github.com/JenniferSieber" target="_blank">GitHub</a></li> -->
+      <li class="nav-item"><a href="../pages/contact.html">Contact</a></li>   
+    </ul>
+    <button 
+      class="hamburger" 
+      id="hamburger">
+        <i class="fas fa-bars hamburger-icon"></i>
+    </button>
+  </nav>
+  <div class="hero">
+    <div class="hero-info">
+      <h1 id="name" id="home-hero">Jennifer Sieber</h1>
+      <p>I am a professional Software Developer and UI Designer. I love to digitally beautify the web.</p>
+      <div class="styled-break"></div>
+      <div class="button">hire me</div>
+    </div>
+    <div>
+      <img 
+        class="hero-image"
+        src="src/images/working-illustration.png" 
+        alt="Illustration of woman at work"
+      >
+    </div>
+  </div>
+  <section>
+    <div class="about-me" id="about-me">
+      <img 
+        class="avatar"
+        src="src/images/jennifer-sieber-avatar.png" 
+        alt="Jennifer Sieber Headshot"
+      /> 
+    </div> 
+    <div class="info">
+      <h2 id="about">About Me</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis voluptatem id in voluptatibus ab autem quae ullam assumenda temporibus at.</p>
+    </div>
+  </section>
+  <section>
+    <a href="www.github.com"> 
+      <i class="fa-brands fa-github social-icon"></i>
+    </a> 
+    <a href="www.github.com"> 
+    <a href="www.instagram.com"> 
+      <i class="fa-brands fa-instagram social-icon"></i>
+    </a>   
+    <a href="www.youtube.com"> 
+      <i class="fa-brands fa-youtube social-icon"></i>
+    </a>   
+    <a href=""> 
+      <i class="fa-solid fa-envelope social-icon"></i>
+    </a>   
+    <a href=""> 
+      <i class="far fa-user-circle social-icon"></i>
+    </a>       
+  </section>
+  <section>
+    <form>
+      <h1>Contact Me</h1>
+      <div class="input-section">
+        <div class="input-group">
+          <label for="first-name">first name: </label>
+          <input type="text" name="first-name" id="first-name" value="first name"></input>
+        </div> 
+        <div class="input-group">    
+          <label for="last-name">last name: </label>
+          <input type="text" name="last-name" id="last-name" value="last name"></input>
+        </div>  
+      </div> 
+      <div class="input-section">
+        <input type="radio" name="office" id="office" value="office"></input>
+        <label for="office">In Office</label>
+      
+        <input type="radio" name="remote" id="remote" value="remote"></input>
+        <label for="remote">Remote</label>
+      
+        <input type="radio" name="other" id="other" value="other"></input>
+        <label for="other">Other</label>
+      </div> 
+      <div class="input-section">
+        <input type="checkbox" name="contract" id="contract" value="contract"></input>
+        <label for="contract">contract</label>
+        <input type="checkbox" name="full-time" id="full-time" value="full-time"></input>
+        <label for="full-time">full-time</label>
+        <input type="checkbox" name="sponsorship" id="sponsorship" value="sponsorship"></input>
+        <label for="sponsorship">sponsorship</label>
+      </div>
+        <input class="button" type="submit" value="submit" id="submit"></input>
+    </form>
+  </section>
+  <footer>
+    <ul class="footer-list">
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="https://github.com/JenniferSieber" target="_blank">GitHub</a></li>
+      <li><a href="../pages/contact.html">Contact</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
